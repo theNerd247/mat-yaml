@@ -1,0 +1,15 @@
+Name: mat-yaml
+Version: 1.0.0
+Date: 09/07/15
+Author: biogeo
+Maintainer: biogeo (packaged by Noah Harvey <noah.harvey247 gmail>)
+Url: https://github.com/biogeo/mat-yaml
+BuildRequires: libyaml
+Categories: mat-yaml
+Title: A libyaml MEX-file interface for Matlab 
+Description: Mat-YAML is an interface to LibYAML for Matlab and GNU Octave.
+ Mat-YAML is intended to make it easy to convert Matlab structs and vectors to
+ and from YAML mappings and sequences. Because the correspondence between these
+ types is not perfect (eg, YAML mappings can have arbitrary keys, while Matlab
+ structs' field names must be valid Matlab identifiers), this is not always
+ possible. But, in many cases, the correspondence is close enough to be useful.
